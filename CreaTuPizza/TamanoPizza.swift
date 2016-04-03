@@ -10,7 +10,7 @@ import UIKit
 
 class TamanoPizza: UITableViewController {
 
-    let tamanos: [String] = ["chica","mediana","Grande"]
+    let tamanos: [String] = ["Chica","Mediana","Grande"]
     var tamanoSeleccionado:String = ""
     
     @IBOutlet weak var botonSiguiente: UIButton!

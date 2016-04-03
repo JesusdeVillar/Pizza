@@ -290,12 +290,6 @@
                                     <segue destination="uxA-Rx-GRX" kind="push" id="ULU-rH-GaM"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ingredientes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QA-Wy-UnA">
-                                <rect key="frame" x="20" y="298" width="280" height="71"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirme su pedido:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMh-YX-pxQ">
                                 <rect key="frame" x="69" y="85" width="182" height="24"/>
                                 <constraints>
@@ -341,6 +335,12 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ingredientes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QA-Wy-UnA">
+                                <rect key="frame" x="20" y="284" width="280" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -353,11 +353,11 @@
                             <constraint firstItem="0ds-3B-zVN" firstAttribute="centerX" secondItem="KCv-MO-ARW" secondAttribute="centerX" id="Fgz-WZ-HnC"/>
                             <constraint firstItem="nMh-YX-pxQ" firstAttribute="centerX" secondItem="KCv-MO-ARW" secondAttribute="centerX" id="GsM-rt-Jo5"/>
                             <constraint firstItem="nMh-YX-pxQ" firstAttribute="top" secondItem="Qy5-im-cJk" secondAttribute="bottom" constant="21" id="LZC-bl-lJY"/>
-                            <constraint firstItem="1QA-Wy-UnA" firstAttribute="top" secondItem="bJM-sh-4gh" secondAttribute="bottom" constant="16" id="Ng1-t3-dZi"/>
+                            <constraint firstItem="1QA-Wy-UnA" firstAttribute="top" secondItem="bJM-sh-4gh" secondAttribute="bottom" constant="2" id="Ng1-t3-dZi"/>
                             <constraint firstItem="bJM-sh-4gh" firstAttribute="centerX" secondItem="KCv-MO-ARW" secondAttribute="centerX" id="Oi5-a1-jvX"/>
                             <constraint firstItem="w3O-c1-RE1" firstAttribute="centerX" secondItem="KCv-MO-ARW" secondAttribute="centerX" id="Sdh-0j-iEB"/>
                             <constraint firstItem="w3O-c1-RE1" firstAttribute="leading" secondItem="0ds-3B-zVN" secondAttribute="leading" id="VYt-p0-Awi"/>
-                            <constraint firstItem="UU5-EZ-rgF" firstAttribute="top" secondItem="1QA-Wy-UnA" secondAttribute="bottom" constant="17" id="Wt4-jk-wma"/>
+                            <constraint firstItem="UU5-EZ-rgF" firstAttribute="top" secondItem="1QA-Wy-UnA" secondAttribute="bottom" constant="41" id="Wt4-jk-wma"/>
                             <constraint firstItem="yWH-Sg-zoz" firstAttribute="leading" secondItem="w3O-c1-RE1" secondAttribute="leading" id="YfQ-DV-aD1"/>
                             <constraint firstItem="7Je-cV-oIl" firstAttribute="top" secondItem="UU5-EZ-rgF" secondAttribute="bottom" constant="152" id="dST-lw-wpa"/>
                             <constraint firstItem="w3O-c1-RE1" firstAttribute="top" secondItem="yWH-Sg-zoz" secondAttribute="bottom" constant="16" id="etm-JH-qSk"/>
