@@ -1,14 +1,18 @@
 //
-//  ViewController.swift
+//  Ingredientes.swift
 //  CreaTuPizza
 //
-//  Created by Jesús de Villar on 2/4/16.
+//  Created by Jesús de Villar on 31/3/16.
 //  Copyright © 2016 JdeVillar. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class Ingredientes: UITableViewController {
+
+    var tamanoPizza: String = ""
+    var tipoMasa: String = ""
+    var tipoQueso: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +25,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let sigVistaConfir=segue.destinationViewController as! ConfirmacionPizza
+        sigVistaConfir.tamanoPizza = tamanoPizza
+        sigVistaConfir.tipoMasa = tipoMasa
+        sigVistaConfir.tipoQueso = tipoQueso
+    }
+    
 
+    
     /*
     // MARK: - Navigation
 

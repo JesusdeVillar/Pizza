@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  MAsaViewController.swift
 //  CreaTuPizza
 //
-//  Created by Jesús de Villar on 2/4/16.
+//  Created by Jesús de Villar on 31/3/16.
 //  Copyright © 2016 JdeVillar. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class MAsaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

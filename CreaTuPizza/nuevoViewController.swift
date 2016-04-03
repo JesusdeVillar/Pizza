@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  nuevoViewController.swift
 //  CreaTuPizza
 //
 //  Created by Jesús de Villar on 2/4/16.
@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class nuevoViewController: UIViewController {
+    var tamano:String = ""
+    @IBOutlet weak var etiqueta: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        etiqueta.text = tamano
         // Do any additional setup after loading the view.
     }
 
