@@ -16,6 +16,7 @@
 		112D34091CB0281800C2EAE3 /* TamanoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D34081CB0281800C2EAE3 /* TamanoPizza.swift */; };
 		112D34111CB0369A00C2EAE3 /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D34101CB0369A00C2EAE3 /* TipoMasa.swift */; };
 		112D34131CB0398F00C2EAE3 /* TipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112D34121CB0398F00C2EAE3 /* TipoQueso.swift */; };
+		11DB771D1CE74C2F00543735 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DB771C1CE74C2F00543735 /* pizza.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		112D34081CB0281800C2EAE3 /* TamanoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanoPizza.swift; sourceTree = "<group>"; };
 		112D34101CB0369A00C2EAE3 /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
 		112D34121CB0398F00C2EAE3 /* TipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQueso.swift; sourceTree = "<group>"; };
+		11DB771C1CE74C2F00543735 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		112D33E91CACEE1300C2EAE3 /* CreaTuPizza */ = {
 			isa = PBXGroup;
 			children = (
+				11DB771C1CE74C2F00543735 /* pizza.png */,
 				112D33EA1CACEE1300C2EAE3 /* AppDelegate.swift */,
 				112D33EE1CACEE1300C2EAE3 /* Main.storyboard */,
 				112D33F11CACEE1300C2EAE3 /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			files = (
 				112D33F51CACEE1300C2EAE3 /* LaunchScreen.storyboard in Resources */,
 				112D33F21CACEE1300C2EAE3 /* Assets.xcassets in Resources */,
+				11DB771D1CE74C2F00543735 /* pizza.png in Resources */,
 				112D33F01CACEE1300C2EAE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				112D33FB1CACEE1300C2EAE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

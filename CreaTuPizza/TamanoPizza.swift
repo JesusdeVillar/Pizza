@@ -43,7 +43,7 @@ class TamanoPizza: UITableViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let sigVistaMasa=segue.destinationViewController as! TipoMasa
+        let sigVistaMasa = segue.destinationViewController as! TipoMasa
         self.tamanoSeleccionado = tamanos[(tableView.indexPathForSelectedRow?.row)!]
         sigVistaMasa.tamano = self.tamanoSeleccionado
     

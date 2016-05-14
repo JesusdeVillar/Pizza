@@ -26,6 +26,7 @@ class VistaIngredientes: UITableViewController {
         super.viewDidLoad()
         self.tableView.allowsMultipleSelection = true
         self.botonSiguiente.enabled = false
+        ingredientesSeleccionados.removeAll()
     }
     
     override func didReceiveMemoryWarning() {
@@ -56,7 +57,7 @@ class VistaIngredientes: UITableViewController {
         sigVistaConfir.tipoQueso = self.tipoQueso
         // for para extraes los datos seleccionados
         let indexPaths:NSArray = tableView.indexPathsForSelectedRows!
- 
+        self.ingredientesSeleccionados.removeAll()
         for i in 0  ..< indexPaths.count {
             let thisPath = indexPaths[i] as! NSIndexPath
             let cell = tableView.cellForRowAtIndexPath(thisPath)
@@ -81,7 +82,12 @@ class VistaIngredientes: UITableViewController {
 
     
     override func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-     tableView.cellForRowAtIndexPath(indexPath)?.accessoryType = UITableViewCellAccessoryType.None
+     
+        tableView.cellForRowAtIndexPath(indexPath)?.accessoryType = UITableViewCellAccessoryType.None
+        let sr = tableView.indexPathsForSelectedRows
+        if sr == nil {
+            botonSiguiente.enabled = false
+        }
     }
  
     
